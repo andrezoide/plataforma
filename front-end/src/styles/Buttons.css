@@ -1,0 +1,77 @@
+.circleButton {
+  border-radius: 50%;
+  width: 1.5vw;
+  height: 1.5vw;
+  background-color: #353333;
+}
+
+.buttonContainer p {
+  color: #a09999;
+}
+
+.buttonContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonContainer p {
+  white-space: nowrap;
+}
+
+.location1,
+.location2,
+.location3,
+.location4,
+.location5,
+.location6 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.location1 {
+  position: absolute;
+  top: calc((-220 / 1200) * 100vw);
+  left: calc((80 / 1200) * 100vw);
+}
+
+.location2 {
+  position: absolute;
+  top: calc((-280 / 1200) * 100vw);
+  left: calc((550 / 1200) * 100vw);
+}
+
+.location3 {
+  position: absolute;
+  top: calc((-260 / 1200) * 100vw);
+  left: calc((890 / 1200) * 100vw);
+}
+
+.location4 {
+  position: absolute;
+  top: calc((150 / 1200) * 100vw);
+  left: calc((780 / 1200) * 100vw);
+}
+
+.location5 {
+  position: absolute;
+  top: calc((90 / 1200) * 100vw);
+  left: calc((450 / 1200) * 100vw);
+}
+
+.location6 {
+  position: absolute;
+  top: calc((200 / 1200) * 100vw);
+  left: calc((120 / 1200) * 100vw);
+}
+
+.linkContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none; /* remove o sublinhado do link */
+}

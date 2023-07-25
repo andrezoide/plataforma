@@ -1,0 +1,10 @@
+
+.quemSomosContainer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; /* ou qualquer porcentagem que você queira */
+}
+
+h1 {
+  text-align: center;
+}

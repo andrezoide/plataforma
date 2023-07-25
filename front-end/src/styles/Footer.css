@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: fixed; /* fixa o footer na janela do navegador */
+  bottom: 10px; /* coloca o footer 10px acima da parte inferior da janela do navegador */
+  right: 10px; /* coloca o footer 10px à direita da borda direita da janela do navegador */
+}
+
+
+.insta,
+.zap {
+  border-radius: 10px;
+  background-color: #ffba00;
+  width: 30px;
+}
