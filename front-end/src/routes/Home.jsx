@@ -11,7 +11,7 @@ export default function Root() {
         </div>
         <Buttons />
         <p className="cem">100%</p>
-        <p className="educacao">EDUCAÇÃO</p> teste
+        <p className="educacao">ECAÇÃO</p>
       </div>
       <Footer />
     </>
